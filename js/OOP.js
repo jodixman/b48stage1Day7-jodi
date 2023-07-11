@@ -34,7 +34,7 @@ class Main {
                     <div class="card_div1">
                         <img src="${this.#image}" alt="photo" class="card_div1-img">
                     </div>
-                    <h1 class="text-xl">D${this.#quote}</h1>
+                    <h1 class="text-xl">${this.#quote}</h1>
                     <h1 class="text-xl flex justify-end font-bold my-10">${this.user}</h1>
                 </div>
             </a>
@@ -53,7 +53,7 @@ class Userx extends Main {
     }
 
     get user() {
-        return "user : " + this.#user
+        return this.#user
     }
 }
 
@@ -66,13 +66,13 @@ class Companyx extends Main {
     }
 
     get user() {
-        return "company : " + this.#company
+        return this.#company
     }
 }
 
-const testimonial1 = new Userx("Surya Elidanto", "GG gaming", "image/oop1.jpg")
-const testimonial2 = new Userx("Guswandi", "Keren kamu bang", "image/oop2.jpeg")
-const testimonial3 = new Companyx("Dumbways", "Apasih ga jelas", "image/oop3.jpeg")
+const testimonial1 = new Userx("Soekarno Hata", "Pelopor Bangsa", "image/oop1.jpg")
+const testimonial2 = new Userx("Soeharto", "Mantap Jiwa", "image/oop2.jpeg")
+const testimonial3 = new Companyx("Megawati", "Penjual Pulau", "image/oop3.jpeg")
 
 
 let testimonialData = [testimonial1, testimonial2, testimonial3]
