@@ -28,14 +28,14 @@ class Main {
 
     get testimonialHTML() {
         return `        <div class="crd_grid flex">
-        <div class="crd_card"  id="hid">
+        <div class="crd_card" id="hid">
             <a href="InProject.html">
                 <div class="card_div">
                     <div class="card_div1">
                         <img src="${this.#image}" alt="photo" class="card_div1-img">
                     </div>
                     <h1 class="text-xl">${this.#quote}</h1>
-                    <h1 class="text-xl flex justify-end font-bold my-10">${this.user}</h1>
+                    <h1 class="crd_div2">${this.user}</h1>
                 </div>
             </a>
         </div>
