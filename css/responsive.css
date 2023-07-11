@@ -1,0 +1,8 @@
+.merah {
+  display: none;
+}
+
+.toggle-menu.active ~ .merah {
+  display: block;
+  background-color: red; /* Add desired background color */
+}

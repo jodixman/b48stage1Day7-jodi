@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/0d0d992eb4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/darkmode.css">
+    <link rel="stylesheet" href="css/project.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <title>Document</title>
+</head>
+<body class="body1 dark-mode">
+
+    <nav class="header px-5">
+        <div class="header_grp">
+            <div class="header_lft">
+                <img src="image/logoDmb.png" class="header_lft-img" alt="Logo" />
+                <a href="index.html" class="header_lft-h1 hidden md:flex">Home</a>
+                <a href="project.html" class="header_lft-p hidden md:flex">My Project</a>
+                <a href="testimonials.html" class="header_lft-p hidden md:flex">Testimonal</a>
+            </div>
+    
+            <div class="header_grp2">
+                <span class="navbar-logo "><i class="fas fa-moon"></i></span>
+                <a href="contact.html" class="header_left-a hidden md:flex">Contact Me</a>   
+                <i class="fa-solid fa-bars toggle-menu cursor-pointer text-4xl md:hidden"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!---- BURGER ----->
+    <div class="bg-white  rounded-lg w-[15rem] h-auto py-10 right-0 absolute merah shadow-xl">
+        <ul class="flex justify-center flex-col text-4xl gap-y-5 items-center mx-auto ">
+            <li class="cursor-pointer w-full pl-2   hover:opacity-50"><a href="index.html">Home</a></li>
+            <li class="cursor-pointer w-full pl-2 hover:opacity-50"><a href="project.html">My Project</a></li>
+            <li class="cursor-pointer w-full pl-2 hover:opacity-50"><a href="contact.html">Contact</a></li>
+            <li class="cursor-pointer w-full pl-2 hover:opacity-50"><a href="testimonials.html">Testimonal</a></li>
+        </ul>
+    </div>
+
+
+    <!----------- PROJECT START  ------------->
+    <div class="py-20">
+        <h1 class="text-5xl font-bold text-center">My Testimonials</h1>
+    </div>
+    <a href="InProject.html" class="crd_grid flex flex-col md:grid xl:grid md:grid-cols-2 xl:grid-cols-3" id="text2"></a>
+    <!----------- PROJECT END  ------------->
+    <script src="js/darkmode.js"></script>
+    <script src="js/responsive.js"></script>
+    <script src="js/OOP.js"></script>
+</body>
+</html>
